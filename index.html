@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;500;600;900&family=Sono:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>County Inforamtion - Beta</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="country" placeholder="Enter Country here ...">
+            <button id="btn-submit">Search</button>
+        </div>
+        <div class="info hidden">
+            <div class="img">
+                <img id="showimg" src="" alt="" width="300">
+            </div>
+            <div class="Country_name">
+                <H2 id="countryname"></H2>
+            </div>
+            <div id="name-dev">
+                <h2 >Mohamed Khalid</h2>
+                <p>SE | Backend Developer</p>
+                <div style="display: flex ;justify-content: center; align-items: center;">
+              <a href="https://www.facebook.com/mohamed.khalidebrahime.1">  <img id="facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="50">
+              </a>
+            </div>
+            </div>
+          
+            <div class="text-info">
+                <ul>
+                    <li>capital:<span id="capital"></span> </li>
+                    <li>currencies:<span id="currencies"></span> </li>
+                    <li>languages:<span id="languages"></span> </li>
+                </ul>
+
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
